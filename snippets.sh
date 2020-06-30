@@ -1,2 +1,1 @@
-docker build -t urlcrazy-source .
-time docker run urlcrazy-source short.com
+time docker build -t urlcrazy . && time docker run urlcrazy -f csv short.com
